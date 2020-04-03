@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #232323;
+}
+.square {
+  width: 30%;
+  background: wheat;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 30px;
+  /* animation: animate 1s linear; */
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 600px;
+}
+h1 {
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+.fadeout {
+  opacity: 0;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+}
+#text {
+  background: white;
+  height: 30px;
+  text-align: center;
+}
+#newgame {
+  border: none;
+  outline: none;
+  background: white;
+  font-size: 18px;
+  padding: 4.3px;
+}
+#newgame:hover {
+  background: cornflowerblue;
+  cursor: pointer;
+}
+#message {
+  font-size: 20px;
+}
