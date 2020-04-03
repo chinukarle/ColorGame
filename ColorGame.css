@@ -1,0 +1,26 @@
+body {
+  background: #232323;
+}
+.square {
+  width: 30%;
+  background: wheat;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 30px;
+  /* animation: animate 1s linear; */
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 600px;
+}
+h1 {
+  color: white;
+}
+.fadeout {
+  opacity: 0;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+}
