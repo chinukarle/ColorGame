@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #232323;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.square {
+  width: 30%;
+  background: wheat;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 30px;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  /* animation: animate 1s linear; */
+}
+
+#container {
+  margin: 20px auto;
+  max-width: 600px;
+}
+h1 {
+  color: white;
+  padding: 30px;
+  text-align: center;
+  background: steelblue;
+}
+.fadeout {
+  opacity: 0;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+}
+#text {
+  background: white;
+  height: 30px;
+  text-align: center;
+}
+button {
+  border: none;
+  outline: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: steelblue;
+  letter-spacing: 1px;
+  font-size: inherit;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+#newgame:hover,
+#easy:hover,
+#hard:hover {
+  background: cornflowerblue;
+  cursor: pointer;
+  color: white;
+  transition: all 0.4s;
+}
+#message {
+  font-size: 20px;
+}
+.selected {
+  background: cornflowerblue;
+  color: white;
+}
+#colorDisplay {
+  font-size: 40px;
+}
